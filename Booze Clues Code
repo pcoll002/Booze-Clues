@@ -62,15 +62,80 @@ Public Class Form2
 
 
     End Sub
+____________________________________________________________________________________________________________________________________________________
+Imports System.Drawing
+Class Bars
 
-    Private Sub LoginToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LoginToolStripMenuItem.Click
+    Dim tt As New ToolTip()
 
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+
+        tt.SetToolTip(PictureBox3, "This bar is Five1Eight. Open Thursdays, Fridays, and Saturdays." & vbNewLine & "Most popular with college students. ")
+
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+
+        tt.SetToolTip(PictureBox4, "This is Green Room. Open 6/7 days a week. CLOSED on Tuesdays." & vbNewLine & "Great for dancing and Socializing.")
+
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+
+        tt.SetToolTip(PictureBox5, "Monopole Bar. Open 7 days a week (Specific Hours)" & vbNewLine & " More of a hippy style Bar, local bands/shows.")
+
+    End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+
+        tt.SetToolTip(PictureBox6, "Peabodies Bar. ")
+    End Sub
+
+    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
         Me.Hide()
         Form1.Show()
 
     End Sub
 
-    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
-        Me.Close()
+    Private Sub btnMoreBars_Click(sender As Object, e As EventArgs) Handles btnMoreBars.Click
+        Me.Hide()
+        Bars2.Show()
 
     End Sub
+
+    Private Sub btnRestu_Click(sender As Object, e As EventArgs) Handles btnRestu.Click
+        Me.Hide()
+        Restuarants.Show()
+
+    End Sub
+End Class
+
+
+
+__________________________________________________________________________________________________________________________________
+
+Public Class Bars2
+    Private Sub btnBars_Click(sender As Object, e As EventArgs) Handles btnBars.Click
+
+        Me.Hide()
+        Bars.Show()
+
+    End Sub
+
+    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
+        Me.Hide()
+        Form1.Show()
+
+    End Sub
+
+    Private Sub btnRestu_Click(sender As Object, e As EventArgs) Handles btnRestu.Click
+        Me.Hide()
+        Restuarants.Show()
+
+
+    End Sub
+End Class
+
+
+
+
