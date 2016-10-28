@@ -136,7 +136,10 @@ Public Class Bars2
     End Sub
 End Class
 
-_______________________________________________________________________________________________________________________________________________________Private Sub pic518_DoubleClick(sender As Object, e As EventArgs) Handles pic518.DoubleClick
+_______________________________________________________________________________________________________________________________________________________
+
+
+ Private Sub pic518_DoubleClick(sender As Object, e As EventArgs) Handles pic518.DoubleClick
 
         Detail.Show()
         Detail.lblDetail.Text = "Five1Eight is a new dance club that is a" & vbNewLine &
@@ -158,4 +161,18 @@ ________________________________________________________________________________
 
     End Sub
 
+    Private Sub picMono_DoubleClick(sender As Object, e As EventArgs) Handles picMono.DoubleClick
+        Detail.Show()
+        Detail.lblDetail.Text = ""
+        Me.Hide()
+    End Sub
+
+
+    Private Sub picPea_DoubleClick(sender As Object, e As EventArgs) Handles picPea.DoubleClick
+        Detail.Show()
+        Detail.lblDetail.Text = ""
+        Me.Hide()
+    End Sub
+End Class
+      
 
