@@ -136,6 +136,26 @@ Public Class Bars2
     End Sub
 End Class
 
+_______________________________________________________________________________________________________________________________________________________Private Sub pic518_DoubleClick(sender As Object, e As EventArgs) Handles pic518.DoubleClick
 
+        Detail.Show()
+        Detail.lblDetail.Text = "Five1Eight is a new dance club that is a" & vbNewLine &
+                                    "hit towardscollge kids. Downtown Plattsburgh's premier nightclub" & vbNewLine &
+                                    "and lounge featuring the finest in DJ oriented entertainment. Locally" & vbNewLine &
+                                    "owned and operated since August 2015." & vbNewLine &
+                                    "Hours: " & vbNewLine & " Thursday: 10:00PM - 2:00AM" & vbNewLine &
+                                    "Tuesday: 10:00PM - 2:00AM" & vbNewLine & " Saturday: 10:00PM - 2:00AM"
+        Me.Hide()
+
+
+    End Sub
+
+    Private Sub picGreenRoom_DoubleClick(sender As Object, e As EventArgs) Handles picGreenRoom.DoubleClick
+
+        Detail.Show()
+        Detail.lblDetail.Text = ""
+        Me.Hide()
+
+    End Sub
 
 
