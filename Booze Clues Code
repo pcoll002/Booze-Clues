@@ -175,7 +175,10 @@ End Class
                                 "Hobie's has 10 beers on tap, pizza, burgers, pasta specials everyday, and much more. " & vbNewLine &
                                 "Guests can come for lunch, dinner, or a drink with outside seating offered when weather " & vbNewLine &
                                 "permits. Hobie's offers take out or dine in waiter service for customers. The bar " & vbNewLine &
-                                "has a pool table and the pleasant vibe creates a warm atmosphere. 
+                                "has a pool table and the warm vibe creates a pleasant atmosphere." & vbNewLine &
+                                "Hours: " & vbNewLine & "Monday - Wednesday 11AM - 10PM." & vbNewLine &
+                                "Thursday - Saturday 11AM - 3AM" & vbNewLine & "Sundays 12pm - 10pm"
+                            
 
         Me.Hide()
 
