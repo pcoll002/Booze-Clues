@@ -185,5 +185,47 @@ ________________________________________________________________________________
         Me.Hide()
     End Sub
 End Class
-      
+     
+     ______________________________________________________________________________________________________
+     
+     Public Class Bars2
+    Private Sub btnBars_Click(sender As Object, e As EventArgs) Handles btnBars.Click
+
+        Me.Hide()
+        Bars.Show()
+
+    End Sub
+
+    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
+        Me.Hide()
+        Form1.Show()
+
+    End Sub
+
+    Private Sub btnRestu_Click(sender As Object, e As EventArgs) Handles btnRestu.Click
+        Me.Hide()
+        Restuarants.Show()
+
+
+    End Sub
+
+    Private Sub picArnies_DoubleClick(sender As Object, e As EventArgs) Handles picArnies.DoubleClick
+
+        Detail.Show()
+        Detail.lblDetail.Text = ""
+
+        Me.Hide()
+
+
+    End Sub
+
+    Private Sub picHobies_DoubleClick(sender As Object, e As EventArgs) Handles picHobies.DoubleClick
+
+        Detail.Show()
+        Detail.lblDetail.Text = ""
+
+        Me.Hide()
+
+    End Sub
+End Class
 
