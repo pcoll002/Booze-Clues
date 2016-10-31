@@ -222,7 +222,11 @@ End Class
     Private Sub picHobies_DoubleClick(sender As Object, e As EventArgs) Handles picHobies.DoubleClick
 
         Detail.Show()
-        Detail.lblDetail.Text = ""
+        Detail.lblDetail.Text = "Hobie's Sports Den is a full service restaurant and bar in downtown Plattsburgh. " & vbNewLine &
+                                "Hobie's has 10 beers on tap, pizza, burgers, pasta specials everyday, and much more. " & vbNewLine &
+                                "Guests can come for lunch, dinner, or a drink with outside seating offered when weather " & vbNewLine &
+                                "permits. Hobie's offers take out or dine in waiter service for customers. The bar " & vbNewLine &
+                                "has a pool table and the pleasant vibe creates a warm atmosphere. 
 
         Me.Hide()
 
