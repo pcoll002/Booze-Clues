@@ -105,7 +105,13 @@ ________________________________________________________________________________
     Private Sub picGreenRoom_DoubleClick(sender As Object, e As EventArgs) Handles picGreenRoom.DoubleClick
 
         Detail.Show()
-        Detail.lblDetail.Text = ""
+        Detail.lblDetail.Text = "Green Room has something for everyone. Whether you want to play darts, relax and socialize" & vbNewLine &
+                                "on the couches or dance the night away Green Room is the place for you. Known for their" & vbNewLine &
+                                "fishbowls on Wednesdays and you can't leave without trying a nerd bucket. Equipped with two full" & vb NewLine &
+                                "bars and one of the biggest dancefloors in Plattsburgh, Green Room's versatility is second to none," & vbNewLine &
+                                " guaranteeing you'll have a great time no matter what your looking for" & vbNewLine &
+                                "Hours: " & vbNewLine & "Monday: 6:00pm - 2:00am" & vbNewLine & "Tuesday: Closed" & vbNewLine &
+                                "Wed-Thurs: 8:00pm - 2am" & vbNewLine & "Fri-Sat: 7:00pm - 2:00am" & vbNewLine & "Sunday: 2:00pm - 10:00pm" & vbNewLine &
         Me.Hide()
 
     End Sub
@@ -175,10 +181,7 @@ End Class
                                 "Hobie's has 10 beers on tap, pizza, burgers, pasta specials everyday, and much more. " & vbNewLine &
                                 "Guests can come for lunch, dinner, or a drink with outside seating offered when weather " & vbNewLine &
                                 "permits. Hobie's offers take out or dine in waiter service for customers. The bar " & vbNewLine &
-                                "has a pool table and the warm vibe creates a pleasant atmosphere." & vbNewLine &
-                                "Hours: " & vbNewLine & "Monday - Wednesday 11AM - 10PM." & vbNewLine &
-                                "Thursday - Saturday 11AM - 3AM" & vbNewLine & "Sundays 12pm - 10pm"
-                            
+                                "has a pool table and the pleasant vibe creates a warm atmosphere. 
 
         Me.Hide()
 
