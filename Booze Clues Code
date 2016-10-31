@@ -1,67 +1,16 @@
-Imports System.IO
-Public Class Form2
-
-    Dim fName As String
-    Dim lName As String
-    Dim userName As String
-    Dim password As String
-
-    Dim count As Integer = 0
-    Dim NewLogin As IO.StreamWriter
-
-    Public Structure Usercollection
-        Dim UserName As String
-        Dim Password As String
-        Dim first As String
-        Dim last As String
-    End Structure
-
-    Dim users() As Usercollection
+Public Class Signup
+    Dim writer As New System.IO.StreamWriter("E:\Booze Clues Project\Code\Users.txt")
 
 
     Private Sub btnSignup_Click(sender As Object, e As EventArgs) Handles btnSignup.Click
 
-
-        Do Until txtFirst.Text <> String.Empty
-            txtFirst.Text = InputBox("Please Enter your First Name. ")
-        Loop
-
-        Do Until txtLast.Text <> String.Empty
-            txtLast.Text = InputBox("Please Enter your Last Name. ")
-        Loop
-
-        Do Until txtUsername.Text <> String.Empty
-            txtUsername.Text = InputBox("Please enter Valid Username. ")
-        Loop
-
-        Do Until txtPassword.Text <> String.Empty
-            txtPassword.Text = InputBox("Please Enter Valid Password. ")
-        Loop
-
-
-        users(count).UserName = txtUsername.Text
-        users(count).Password = txtPassword.Text
-        users(count).first = txtFirst.Text
-        users(count).last = txtLast.Text
-
-
-
-        NewLogin = File.AppendText("Users.txt")
-
-        NewLogin.WriteLine(users(count).UserName)
-        NewLogin.WriteLine(users(count).Password)
-        NewLogin.WriteLine(users(count).first)
-        NewLogin.WriteLine(users(count).last)
-
-        NewLogin.Close()
-
-        txtUsername.Clear()
-        txtPassword.Clear()
-        txtFirst.Clear()
-        txtLast.Clear()
-
+        writer.WriteLine(txtFirst.Text)
+        writer.WriteLine(txtLast.Text)
+        writer.WriteLine(txtUsername.Text)
+        writer.WriteLine(txtPass.Text)
 
     End Sub
+End Class
 ____________________________________________________________________________________________________________________________________________________
 Imports System.Drawing
 Class Bars
