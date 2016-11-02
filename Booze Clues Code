@@ -1,12 +1,20 @@
 Public Class Signup
-    Dim file As New System.IO.StreamWriter("E:\Booze Clues Project\Code\Users.txt")
+    Dim w As New System.IO.StreamWriter("E:\Booze Clues Project\Code\Users.txt")
+    Dim r As New System.IO.StreamReader("E:\Booze Clues Project\Code\Users.txt")
+
 
 
     Private Sub btnSignup_Click(sender As Object, e As EventArgs) Handles btnSignup.Click
 
 
-        file.WriteLine("Hello")
-        file.Close()
+        w.WriteLine(txtFirst.Text, "")
+        w.WriteLine(txtLast.Text, "")
+        w.WriteLine(txtUsername.Text, "")
+        w.WriteLine(txtPass.Text, "")
+
+
+        w.Close()
+
 
     End Sub
 End Class
