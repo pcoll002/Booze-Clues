@@ -215,6 +215,8 @@ ________________________________________________________________________________
                                 "Tuesday 10:00PM - 2:00AM" & vbNewLine & "Saturday: 10:00PM - 2:00AM"
 
         Detail.lblBullets.Text = " •Dancing  •Dj  •Dance Floor  •Music  •Bar  •College  •VIP section "
+        
+        Detail.lblBarName.Text = "Five1Eight"
 
 
 
@@ -243,6 +245,7 @@ ________________________________________________________________________________
 
         Detail.lblBullets.Text = " •Dancing  •Dj  •Dance Floor  •Music  •Bar  •College  •VIP section •Darts •Pool •FishBowls •NerdBuckets"
 
+        Detail.lblBarName.Text = "Green Room"
 
         Me.Hide()
 
@@ -267,6 +270,8 @@ ________________________________________________________________________________
 
 
         Detail.lblBullets.Text = " •Bands •Shows •Calm •2-Floors •Hippie-Style •Mellow •Darts •Bar •Wing Wednesday •Football Sunday"
+
+        Detail.lblBarName.Text = "Monopole"
 
         Me.Hide()
     End Sub
@@ -293,8 +298,61 @@ ________________________________________________________________________________
         Detail.lblBullets.Text = " •Dj •Dancing •DanceFloor •Music •College •2-Floors •Food •Bar" & vbNewLine &
                                     "**Mondays include Chug-a-Mug special, $5 mixed drinks and $3 Beers!*** "
 
+
+
+            Detail.lblBarName.Text = "Peabody's Bar"
         Me.Hide()
     End Sub
 
 End Class
+
+___________________________________________________________________________________________________________________________________________________________
+
+
+Public Class Detail
+
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+
+        Me.Close()
+
+    End Sub
+
+    Private Sub btnBars_Click(sender As Object, e As EventArgs) Handles btnBars.Click
+        Me.Hide()
+        Bars.Show()
+
+
+    End Sub
+
+    Private Sub btnRest_Click(sender As Object, e As EventArgs) Handles btnRest.Click
+        Me.Hide()
+        Restuarants.Show()
+
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+
+        If lblBarName.Text = "Five1Eight" Then
+            System.Diagnostics.Process.Start("https://www.facebook.com/Five1Eight/")
+
+        ElseIf lblBarName.Text = "Green Room" Then
+            System.Diagnostics.Process.Start("https://www.facebook.com/greenroomplattsburgh/?fref=ts")
+
+        ElseIf lblBarName.Text = "Monopole" Then
+            System.Diagnostics.Process.Start("http://monopolebar.com/")
+
+        ElseIf lblBarName.Text = "Peabody's Bar" Then
+            System.Diagnostics.Process.Start("https://www.facebook.com/peabodys.bar/")
+
+        End If
+
+
+    End Sub
+End Class
+
+________________________________________________________________________________________________________________________________
+
+
+
+
 
