@@ -26,7 +26,7 @@ Class Bars
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
 
-        tt.SetToolTip(PictureBox3, "This bar is Five1Eight. Open Thursdays, Fridays, and Saturdays." & vbNewLine & "Most popular with college students. ")
+        tt.SetToolTip(PictureBox3, "Ce bar est Five1Eight. Ouvert les jeudis, vendredis et samedis." & vbNewLine & "Les plus populaires auprès des étudiants.")
 
     End Sub
 
