@@ -32,7 +32,7 @@ Class Bars
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
 
-        tt.SetToolTip(PictureBox4, "Ceci est Green Room. Ouvrir 6 jours par semaine. Fermé le mardi." & vbNewLine & "Idéal pour la danse et Socialisation.")
+        tt.SetToolTip(PictureBox4, "This is Green Room. Open 6/7 days a week. CLOSED on Tuesdays." & vbNewLine & "Great for dancing and Socializing.")
 
     End Sub
 
