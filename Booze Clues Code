@@ -26,7 +26,7 @@ Class Bars
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
 
-        tt.SetToolTip(PictureBox3, "Ce bar est Five1Eight. Ouvert les jeudis, vendredis et samedis." & vbNewLine & "Les plus populaires auprès des étudiants.")
+        tt.SetToolTip(PictureBox3, "This bar is Five1Eight. Open Thursdays, Fridays, and Saturdays." & vbNewLine & "Most popular with college students. ")
 
     End Sub
 
@@ -208,11 +208,11 @@ ________________________________________________________________________________
 
 
 
-        Detail.lblEvents.Text = "Thursdays: Ladies Night" & vbNewLine &
-                                "Fridays: College Night" & vbNewLine &
-                                "Saturdays: College Night" & vbNewLine & vbNewLine &
-                                "Hours: " & vbNewLine & "Thursday: 10:00PM - 2:00AM" & vbNewLine &
-                                "Tuesday 10:00PM - 2:00AM" & vbNewLine & "Saturday: 10:00PM - 2:00AM"
+        Detail.lblEvents.Text = "Jeudi: Ladies Night" & vbNewLine &
+                                "Vendredi: College Night" & vbNewLine &
+                                "Samedi: College Night" & vbNewLine & vbNewLine &
+                                "Hours: " & vbNewLine & "Jeudi: 10:00PM - 2:00AM" & vbNewLine &
+                                "Vendredi: 10:00PM - 2:00AM" & vbNewLine & "Samedi: 10:00PM - 2:00AM"
 
         Detail.lblBullets.Text = " •Dancing  •Dj  •Dance Floor  •Music  •Bar  •College  •VIP section "
         
@@ -233,14 +233,14 @@ ________________________________________________________________________________
 
 
 
-        Detail.lblEvents.Text = "Hours: " & vbNewLine & vbNewLine &
-                                "Mondays: 6:00pm - 2:00am" & vbNewLine &
-                                "Tuesdays: CLOSED" & vbNewLine &
-                                "Wednesdays: 8:00pm - 2:00am" & vbNewLine &
-                                "Thursday: 8:00PM - 2:00AM" & vbNewLine &
-                                "Fridays: 7:00pm - 2:00am" & vbNewLine &
-                                "Saturday: 10:00PM - 2:00AM" & vbNewLine &
-                                "Sundays: 2:00pm - 10:00pm"
+        Detail.lblEvents.Text = "Heures: " & vbNewLine & vbNewLine &
+                                "Lundi: 6:00pm - 2:00am" & vbNewLine &
+                                "Mardi: CLOSED" & vbNewLine &
+                                "Mercredi: 8:00pm - 2:00am" & vbNewLine &
+                                "Jeudi: 8:00PM - 2:00AM" & vbNewLine &
+                                "Vendredi: 7:00pm - 2:00am" & vbNewLine &
+                                "Samedi: 10:00PM - 2:00AM" & vbNewLine &
+                                "Dimanche: 2:00pm - 10:00pm"
 
 
         Detail.lblBullets.Text = " •Dancing  •Dj  •Dance Floor  •Music  •Bar  •College  •VIP section •Darts •Pool •FishBowls •NerdBuckets"
@@ -259,14 +259,14 @@ ________________________________________________________________________________
 
 
 
-        Detail.lblEvents.Text = "Hours: " & vbNewLine & vbNewLine &
-                                "Mondays: 3:00pm - 2:00am" & vbNewLine &
-                                "Tuesdays: 3:00pm - 2:00am" & vbNewLine &
-                                "Wednesdays: 3:00pm - 2:00am" & vbNewLine &
-                                "Thursday: 3:00pm - 2:00am" & vbNewLine &
-                                "Fridays: 3:00pm - 2:00am" & vbNewLine &
-                                "Saturday: 3:00PM - 2:00AM" & vbNewLine &
-                                "Sundays: 1:00pm - 2:00pm"
+        Detail.lblEvents.Text = "Heures: " & vbNewLine & vbNewLine &
+                                "Lundi: 3:00pm - 2:00am" & vbNewLine &
+                                "Mardi: 3:00pm - 2:00am" & vbNewLine &
+                                "Mercredi: 3:00pm - 2:00am" & vbNewLine &
+                                "Jeudi: 3:00pm - 2:00am" & vbNewLine &
+                                "Vendredi: 3:00pm - 2:00am" & vbNewLine &
+                                "Samedi: 3:00PM - 2:00AM" & vbNewLine &
+                                "Dimanche: 1:00pm - 2:00pm"
 
 
         Detail.lblBullets.Text = " •Bands •Shows •Calm •2-Floors •Hippie-Style •Mellow •Darts •Bar •Wing Wednesday •Football Sunday"
@@ -285,14 +285,14 @@ ________________________________________________________________________________
 
 
 
-        Detail.lblEvents.Text = "Hours: " & vbNewLine & vbNewLine &
-                                "Mondays: 11:30 am to 2:00 am" & vbNewLine &
-                                "Tuesdays: 11:30 am to 2:00 am" & vbNewLine &
-                                "Wednesdays: 11:30 am to 2:00 am" & vbNewLine &
-                                "Thursday: 11:30 am to 2:00 am" & vbNewLine &
-                                "Fridays: 11:30 am to 2:00 am" & vbNewLine &
-                                "Saturday: 11:30 am to 2:00 am" & vbNewLine &
-                                "Sundays: 11:30 am to 2:00 am"
+        Detail.lblEvents.Text = "Heures: " & vbNewLine & vbNewLine &
+                                "Lundi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Mardi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Mercredi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Jeudi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Vendredi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Samedi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Dimanche: 11:30 am to 2:00 am"
 
 
         Detail.lblBullets.Text = " •Dj •Dancing •DanceFloor •Music •College •2-Floors •Food •Bar" & vbNewLine &
