@@ -112,13 +112,13 @@ ________________________________________________________________________________
     Private Sub picGreenRoom_DoubleClick(sender As Object, e As EventArgs) Handles picGreenRoom.DoubleClick
 
         Detail.Show()
-        Detail.lblDetail.Text = "Green Room a quelque chose pour tout le monde. Que vous vouliez jouer aux fléchettes, se détendre et" & vbNewLine &
-                                "de socialiser sur les canapés ou danser toute la nuit Green Room est l'endroit pour vous. Connus pour leur" & vbNewLine &
-                                "fishbowls les mercredis et vous ne pouvez pas partir sans essayer un seau nerd. Equipé de deux complète" & vb NewLine &
-                                "bars et un des plus grands dancefloors à Plattsburgh, la polyvalence de Green Room est incomparable," & vbNewLine &
-                                " garantir que vous aurez un grand temps, peu importe ce que vous cherchez." & vbNewLine &
-                                "Heures: " & vbNewLine & "Lundi: 6:00pm - 2:00am" & vbNewLine & "Mardi: Closed" & vbNewLine &
-                                "Mercredi-Jeudi: 8:00pm - 2am" & vbNewLine & "Vndredi-Samedi: 7:00pm - 2:00am" & vbNewLine & "Dimanche: 2:00pm - 10:00pm" & vbNewLine &
+        Detail.lblDetail.Text = "Green Room has something for everyone. Whether you want to play darts, relax and socialize" & vbNewLine &
+                                "on the couches or dance the night away Green Room is the place for you. Known for their" & vbNewLine &
+                                "fishbowls on Wednesdays and you can't leave without trying a nerd bucket. Equipped with two full" & vb NewLine &
+                                "bars and one of the biggest dancefloors in Plattsburgh, Green Room's versatility is second to none," & vbNewLine &
+                                " guaranteeing you'll have a great time no matter what your looking for" & vbNewLine &
+                                "Hours: " & vbNewLine & "Monday: 6:00pm - 2:00am" & vbNewLine & "Tuesday: Closed" & vbNewLine &
+                                "Wed-Thurs: 8:00pm - 2am" & vbNewLine & "Fri-Sat: 7:00pm - 2:00am" & vbNewLine & "Sunday: 2:00pm - 10:00pm" & vbNewLine &
         Me.Hide()
 
     End Sub
