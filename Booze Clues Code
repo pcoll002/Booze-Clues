@@ -203,16 +203,16 @@ ________________________________________________________________________________
  Private Sub pic518_DoubleClick(sender As Object, e As EventArgs) Handles pic518.DoubleClick
 
         Detail.Show()
-        Detail.lblDetail.Text = "Five1Eight est un nouveau club de danse qui est un succès pour les enfants du collège. La discothèque et le lounge principal du centre-ville de Plattsburgh proposent les meilleurs divertissements pour DJ. Localement détenu Et géré depuis août 2015."
+        Detail.lblDetail.Text = "Five1Eight is a new dance club that is a hit towards collge kids. Downtown Plattsburgh's premier nightclub and lounge featuring the finest in DJ oriented entertainment. Locally owned And operated since August 2015."
 
 
 
 
-        Detail.lblEvents.Text = "Thursdays: Ladies Night" & vbNewLine &
-                                "Fridays: College Night" & vbNewLine &
+        Detail.lblEvents.Text = "Jeudi: Ladies Night" & vbNewLine &
+                                "Vendredi: College Night" & vbNewLine &
                                 "Saturdays: College Night" & vbNewLine & vbNewLine &
-                                "Hours: " & vbNewLine & "Thursday: 10:00PM - 2:00AM" & vbNewLine &
-                                "Tuesday 10:00PM - 2:00AM" & vbNewLine & "Saturday: 10:00PM - 2:00AM"
+                                "Hours: " & vbNewLine & "Jeudi: 10:00PM - 2:00AM" & vbNewLine &
+                                "Vendredi: 10:00PM - 2:00AM" & vbNewLine & "Samedi: 10:00PM - 2:00AM"
 
         Detail.lblBullets.Text = " •Dancing  •Dj  •Dance Floor  •Music  •Bar  •College  •VIP section "
         
@@ -228,19 +228,19 @@ ________________________________________________________________________________
     Private Sub picGreenRoom_DoubleClick(sender As Object, e As EventArgs) Handles picGreenRoom.DoubleClick
 
         Detail.Show()
-        Detail.lblDetail.Text = "Green Room a quelque chose pour tout le monde. Si vous voulez jouer aux fléchettes, se détendre et socialiser sur les canapés ou danser toute la nuit." & vbNewLine &
-                                "Deux bars complets Et l'un des plus grands parcs de danse à Plattsburgh, la polyvalence de Green Room est incomparable, vous garantissant que vous passerez un bon moment, peu importe ce que vous cherchez" & vbNewLine &
+        Detail.lblDetail.Text = "Green Room has something For everyone. Whether you want To play darts, relax And socialize on the couches or dance the night away." & vbNewLine &
+                                "Two full bars And one Of the biggest dance floors In Plattsburgh, Green Room's versatility is second to none, guaranteeing you'll have a great time no matter what your looking for"
 
 
 
         Detail.lblEvents.Text = "Hours: " & vbNewLine & vbNewLine &
-                                "Mondays: 6:00pm - 2:00am" & vbNewLine &
-                                "Tuesdays: CLOSED" & vbNewLine &
-                                "Wednesdays: 8:00pm - 2:00am" & vbNewLine &
-                                "Thursday: 8:00PM - 2:00AM" & vbNewLine &
-                                "Fridays: 7:00pm - 2:00am" & vbNewLine &
-                                "Saturday: 10:00PM - 2:00AM" & vbNewLine &
-                                "Sundays: 2:00pm - 10:00pm"
+                                "Lundi: 6:00pm - 2:00am" & vbNewLine &
+                                "Mardi: CLOSED" & vbNewLine &
+                                "Mercredi: 8:00pm - 2:00am" & vbNewLine &
+                                "Jeudi: 8:00PM - 2:00AM" & vbNewLine &
+                                "Vendredi: 7:00pm - 2:00am" & vbNewLine &
+                                "Samedi: 10:00PM - 2:00AM" & vbNewLine &
+                                "Dimanche: 2:00pm - 10:00pm"
 
 
         Detail.lblBullets.Text = " •Dancing  •Dj  •Dance Floor  •Music  •Bar  •College  •VIP section •Darts •Pool •FishBowls •NerdBuckets"
@@ -253,20 +253,20 @@ ________________________________________________________________________________
 
     Private Sub picMono_DoubleClick(sender As Object, e As EventArgs) Handles picMono.DoubleClick
         Detail.Show()
-        Detail.lblDetail.Text = "Monopole est le plus vieux bar de Plattsburgh. Fondé en 1898, il fixe la norme pour tous les autres bars à Plattsburgh." & vbNewLine &
+        Detail.lblDetail.Text = "Monopole Est le plus vieux bar de Plattsburgh. Fondé en 1898, il fixe la norme pour tous les autres bars à Plattsburgh." & vbNewLine &
                                 "Un trou d'eau commun pour les étudiants et les résidents locaux. Boissons spéciales tous les jours Et musique live Au deuxième étage."
 
 
 
 
-        Detail.lblEvents.Text = "Hours: " & vbNewLine & vbNewLine &
-                                "Mondays: 3:00pm - 2:00am" & vbNewLine &
-                                "Tuesdays: 3:00pm - 2:00am" & vbNewLine &
-                                "Wednesdays: 3:00pm - 2:00am" & vbNewLine &
-                                "Thursday: 3:00pm - 2:00am" & vbNewLine &
-                                "Fridays: 3:00pm - 2:00am" & vbNewLine &
-                                "Saturday: 3:00PM - 2:00AM" & vbNewLine &
-                                "Sundays: 1:00pm - 2:00pm"
+        Detail.lblEvents.Text = "Heures: " & vbNewLine & vbNewLine &
+                                "Lundi: 3:00pm - 2:00am" & vbNewLine &
+                                "Mardi: 3:00pm - 2:00am" & vbNewLine &
+                                "Mercredi: 3:00pm - 2:00am" & vbNewLine &
+                                "Jeudi: 3:00pm - 2:00am" & vbNewLine &
+                                "Vendredi: 3:00pm - 2:00am" & vbNewLine &
+                                "Samedi: 3:00PM - 2:00AM" & vbNewLine &
+                                "Dimanche: 1:00pm - 2:00pm"
 
 
         Detail.lblBullets.Text = " •Bands •Shows •Calm •2-Floors •Hippie-Style •Mellow •Darts •Bar •Wing Wednesday •Football Sunday"
@@ -278,21 +278,21 @@ ________________________________________________________________________________
 
     Private Sub picPea_DoubleClick(sender As Object, e As EventArgs) Handles picPea.DoubleClick
         Detail.Show()
-        Detail.lblDetail.Text = "Peabody's est l'un des meilleurs collèges du centre-ville avec un bar au premier et deuxième étage avec étagères de boissons alcoolisées et des bières froides sur le robinet." & vbNewLine &
-                                "Vous apprécierez la piste de danse au deuxième étage et une ambiance plus détendue au premier étage pour socialiser et rencontrer de nouvelles personnes."
+        Detail.lblDetail.Text = "Peabody's is one of the best college bars downtown with a bar on the first and second floor with shelves of liquor and cold beers on tap." & vbNewLine &
+                                "You'll enjoy the dance floor on the second floor and a more relaxed vibe on the first floor to socialize and meet new people."
 
 
 
 
 
-        Detail.lblEvents.Text = "Hours: " & vbNewLine & vbNewLine &
-                                "Mondays: 11:30 am to 2:00 am" & vbNewLine &
-                                "Tuesdays: 11:30 am to 2:00 am" & vbNewLine &
-                                "Wednesdays: 11:30 am to 2:00 am" & vbNewLine &
-                                "Thursday: 11:30 am to 2:00 am" & vbNewLine &
-                                "Fridays: 11:30 am to 2:00 am" & vbNewLine &
-                                "Saturday: 11:30 am to 2:00 am" & vbNewLine &
-                                "Sundays: 11:30 am to 2:00 am"
+        Detail.lblEvents.Text = "Heures: " & vbNewLine & vbNewLine &
+                                "Lundi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Mardi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Mercredi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Jeudi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Vendredi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Samedi: 11:30 am to 2:00 am" & vbNewLine &
+                                "Dimanche: 11:30 am to 2:00 am"
 
 
         Detail.lblBullets.Text = " •Dj •Dancing •DanceFloor •Music •College •2-Floors •Food •Bar" & vbNewLine &
