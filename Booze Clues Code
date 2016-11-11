@@ -233,7 +233,7 @@ ________________________________________________________________________________
 
 
 
-        Detail.lblEvents.Text = "Hours: " & vbNewLine & vbNewLine &
+        Detail.lblEvents.Text = "Heures: " & vbNewLine & vbNewLine &
                                 "Lundi: 6:00pm - 2:00am" & vbNewLine &
                                 "Mardi: CLOSED" & vbNewLine &
                                 "Mercredi: 8:00pm - 2:00am" & vbNewLine &
