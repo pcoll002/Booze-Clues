@@ -203,7 +203,7 @@ ________________________________________________________________________________
  Private Sub pic518_DoubleClick(sender As Object, e As EventArgs) Handles pic518.DoubleClick
 
         Detail.Show()
-        Detail.lblDetail.Text = "Five1Eight is a new dance club that is a hit towards collge kids. Downtown Plattsburgh's premier nightclub and lounge featuring the finest in DJ oriented entertainment. Locally owned And operated since August 2015."
+        Detail.lblDetail.Text = "Five1Eight est un nouveau club de danse qui est un succès pour les enfants du collège. La discothèque et le lounge principal du centre-ville de Plattsburgh proposent les meilleurs divertissements pour DJ. Localement détenu Et géré depuis août 2015."
 
 
 
@@ -228,8 +228,8 @@ ________________________________________________________________________________
     Private Sub picGreenRoom_DoubleClick(sender As Object, e As EventArgs) Handles picGreenRoom.DoubleClick
 
         Detail.Show()
-        Detail.lblDetail.Text = "Green Room has something For everyone. Whether you want To play darts, relax And socialize on the couches or dance the night away." & vbNewLine &
-                                "Two full bars And one Of the biggest dance floors In Plattsburgh, Green Room's versatility is second to none, guaranteeing you'll have a great time no matter what your looking for"
+        Detail.lblDetail.Text = "Green Room a quelque chose pour tout le monde. Si vous voulez jouer aux fléchettes, se détendre et socialiser sur les canapés ou danser toute la nuit." & vbNewLine &
+                                "Deux bars complets Et l'un des plus grands parcs de danse à Plattsburgh, la polyvalence de Green Room est incomparable, vous garantissant que vous passerez un bon moment, peu importe ce que vous cherchez" & vbNewLine &
 
 
 
@@ -253,8 +253,8 @@ ________________________________________________________________________________
 
     Private Sub picMono_DoubleClick(sender As Object, e As EventArgs) Handles picMono.DoubleClick
         Detail.Show()
-        Detail.lblDetail.Text = "Monopole is Plattsburgh's oldest bar. Established in 1898, it sets the standard for all other bars in Plattsburgh." & vbNewLine &
-                                "A common watering hole for both college students and local residents. Drink specials everyday And live music On the second floor."
+        Detail.lblDetail.Text = "Monopole est le plus vieux bar de Plattsburgh. Fondé en 1898, il fixe la norme pour tous les autres bars à Plattsburgh." & vbNewLine &
+                                "Un trou d'eau commun pour les étudiants et les résidents locaux. Boissons spéciales tous les jours Et musique live Au deuxième étage."
 
 
 
@@ -278,8 +278,8 @@ ________________________________________________________________________________
 
     Private Sub picPea_DoubleClick(sender As Object, e As EventArgs) Handles picPea.DoubleClick
         Detail.Show()
-        Detail.lblDetail.Text = "Peabody's is one of the best college bars downtown with a bar on the first and second floor with shelves of liquor and cold beers on tap." & vbNewLine &
-                                "You'll enjoy the dance floor on the second floor and a more relaxed vibe on the first floor to socialize and meet new people."
+        Detail.lblDetail.Text = "Peabody's est l'un des meilleurs collèges du centre-ville avec un bar au premier et deuxième étage avec étagères de boissons alcoolisées et des bières froides sur le robinet." & vbNewLine &
+                                "Vous apprécierez la piste de danse au deuxième étage et une ambiance plus détendue au premier étage pour socialiser et rencontrer de nouvelles personnes."
 
 
 
