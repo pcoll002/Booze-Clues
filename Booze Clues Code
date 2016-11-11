@@ -203,7 +203,7 @@ ________________________________________________________________________________
  Private Sub pic518_DoubleClick(sender As Object, e As EventArgs) Handles pic518.DoubleClick
 
         Detail.Show()
-        Detail.lblDetail.Text = "Five1Eight is a new dance club that is a hit towards collge kids. Downtown Plattsburgh's premier nightclub and lounge featuring the finest in DJ oriented entertainment. Locally owned And operated since August 2015."
+        Detail.lblDetail.Text = "Five1EightEst un nouveau club de danse qui est un succès pour les enfants collge. La discothèque et le lounge principal du centre-ville de Plattsburgh proposent les meilleurs divertissements pour DJ. Localement détenu Et géré depuis août 2015."
 
 
 
@@ -214,7 +214,7 @@ ________________________________________________________________________________
                                 "Hours: " & vbNewLine & "Jeudi: 10:00PM - 2:00AM" & vbNewLine &
                                 "Vendredi: 10:00PM - 2:00AM" & vbNewLine & "Samedi: 10:00PM - 2:00AM"
 
-        Detail.lblBullets.Text = " •Dancing  •Dj  •Dance Floor  •Music  •Bar  •College  •VIP section "
+        Detail.lblBullets.Text = "• Danse • Dj • Piste de danse • Musique • Bar • Collège • Section VIP "
         
         Detail.lblBarName.Text = "Five1Eight"
 
@@ -228,8 +228,8 @@ ________________________________________________________________________________
     Private Sub picGreenRoom_DoubleClick(sender As Object, e As EventArgs) Handles picGreenRoom.DoubleClick
 
         Detail.Show()
-        Detail.lblDetail.Text = "Green Room has something For everyone. Whether you want To play darts, relax And socialize on the couches or dance the night away." & vbNewLine &
-                                "Two full bars And one Of the biggest dance floors In Plattsburgh, Green Room's versatility is second to none, guaranteeing you'll have a great time no matter what your looking for"
+        Detail.lblDetail.Text = "Green Room A quelque chose pour tout le monde. Que vous vouliez jouer aux fléchettes, se détendre et socialiser sur les canapés ou danser toute la nuit." & vbNewLine &
+                                "Deux bars complets Et l'un des plus grands parcs de danse à Plattsburgh, la polyvalence de Green Room est incomparable, vous garantissant que vous passerez un bon moment, peu importe ce que vous cherchez"
 
 
 
@@ -243,7 +243,7 @@ ________________________________________________________________________________
                                 "Dimanche: 2:00pm - 10:00pm"
 
 
-        Detail.lblBullets.Text = " •Dancing  •Dj  •Dance Floor  •Music  •Bar  •College  •VIP section •Darts •Pool •FishBowls •NerdBuckets"
+        Detail.lblBullets.Text = "• Danse • Dj • Piste de danse • Musique • Bar • Collège • Section VIP • Fléchettes • Piscine • FishBowls • NerdBuckets"
 
         Detail.lblBarName.Text = "Green Room"
 
@@ -269,7 +269,7 @@ ________________________________________________________________________________
                                 "Dimanche: 1:00pm - 2:00pm"
 
 
-        Detail.lblBullets.Text = " •Bands •Shows •Calm •2-Floors •Hippie-Style •Mellow •Darts •Bar •Wing Wednesday •Football Sunday"
+        Detail.lblBullets.Text = " • Bandes • Spectacles • Calme • 2-étages • Hippie-Style • Mellow • Fléchettes • Bar • Aile Mercredi • Football Dimanche"
 
         Detail.lblBarName.Text = "Monopole"
 
