@@ -278,8 +278,8 @@ ________________________________________________________________________________
 
     Private Sub picPea_DoubleClick(sender As Object, e As EventArgs) Handles picPea.DoubleClick
         Detail.Show()
-        Detail.lblDetail.Text = "Peabody's is one of the best college bars downtown with a bar on the first and second floor with shelves of liquor and cold beers on tap." & vbNewLine &
-                                "You'll enjoy the dance floor on the second floor and a more relaxed vibe on the first floor to socialize and meet new people."
+        Detail.lblDetail.Text = "Peabody's Est l'un des meilleurs collèges du centre-ville avec un bar au premier et deuxième étage avec des étagères de boissons alcoolisées et des bières fraîches sur le robinet." & vbNewLine &
+                                "Vous apprécierez la piste de danse au deuxième étage et une ambiance plus détendue au premier étage pour socialiser et rencontrer de nouvelles personnes."
 
 
 
@@ -295,8 +295,8 @@ ________________________________________________________________________________
                                 "Dimanche: 11:30 am to 2:00 am"
 
 
-        Detail.lblBullets.Text = " •Dj •Dancing •DanceFloor •Music •College •2-Floors •Food •Bar" & vbNewLine &
-                                    "**Mondays include Chug-a-Mug special, $5 mixed drinks and $3 Beers!*** "
+        Detail.lblBullets.Text = "• Dj • Danse • DanceFloor • Musique • Collège • 2-étages • Nourriture • Bar" & vbNewLine &
+                                    "**Lundi comprendre Chug-a-Mug spécial, $5 boissons mélangées and $3 Bières!*** "
 
 
 
