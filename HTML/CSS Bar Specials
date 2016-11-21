@@ -1,0 +1,26 @@
+<! doctype html>
+
+<html>
+
+<head>
+
+
+	<link rel="stylesheet" type = "text/css" href="CSS.css">
+	<title><c Booze Clues</title>
+	
+</head>
+<body>
+<div class = "header">
+	<img src="HTML Beer.jpg" alt="Beer"/>
+
+<h1><center> Booze Clues: <i> The Place to find your Booze!</i></center><h2>
+</div>
+
+
+
+<ul>
+
+	<li><a href="Peabodys.asp">Peabody's Bar</a></li>
+	<li><a href="five1eight.asp">Five1Eight</a></li>
+	<li><a href="Monopole.asp">Monopole</a></li>
+	<li><a href="GreenRoom.asp">Green Room</a></li>
