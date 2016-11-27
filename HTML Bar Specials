@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+img header {
+	width: 25px;
+	height: 25;
+}
+
+nav {
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 0;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+	
+}
+   
+nav ul a {
+    text-decoration: none;
+	color: black;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+	font-size: 25px;
+	
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #FAD7A0;
+    color: white;
+}
+
+article {
+    margin-left: 200px;
+    border-left: 1px solid gray;
+    padding: 5em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+	<div><img src="spotlight.png" align="left"/ alt="Spotlights" height="200" width="200">
+	<h1>Booze Clues: <i> The Place To Find Your Booze</i></h1></div>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">Green Room</a></li>
+    <li><a href="#">Peabodys</a></li>
+    <li><a href="#">Hobies</a></li>
+	<li><a href="#">Monopole</a></li>
+	<li><a href="#">Five1Eight</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>Green Room Specials</h1>
+</article>
+
+<footer>Mason, Pat, Nick, Chris</footer>
+
+</div>
+
+</body>
+</html>
