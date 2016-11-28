@@ -56,6 +56,7 @@ li a {
 li a:hover {
     background-color: #FAD7A0;
     color: white;
+    max-width:150px;
 }
 
 article {
@@ -63,6 +64,18 @@ article {
     border-left: 1px solid gray;
     padding: 5em;
     overflow: hidden;
+}
+
+
+.float_col1 {
+	float:left;
+	width: 250px;
+}
+
+.float_col2 {
+	float:right;
+	width: 250px;
+	margin-left:200px;
 }
 </style>
 </head>
@@ -86,8 +99,16 @@ article {
 </nav>
 
 <article>
-  <h1>Green Room Specials</h1>
-</article>
+	<div class="float_col1">
+  <h1>Hobies</h1>
+  Hobie's Sports Den is a full service restaurant and bar in downtown Plattsburgh.
+ Hobie's has 10 beers on tap, pizza, burgers, pasta specials everyday, and much more.
+Guests can come for lunch, dinner, or a drink with outside seating offered when weather 
+permits. Hobie's offers take out or dine in waiter service for customers. The bar 
+ has a pool table and the pleasant vibe creates a warm atmosphere.
+</div>
+
+<div class="float_col2"><h1>Column 2 </h1></div>
 
 <footer>Mason, Pat, Nick, Chris</footer>
 
