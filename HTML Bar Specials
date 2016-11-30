@@ -117,7 +117,11 @@ permits. Hobie's offers take out or dine in waiter service for customers. The ba
 	<p> *Soup and Meal Specials Everyday*</p>
 	</div>
 
-<footer>Mason, Pat, Nick, Chris</footer>
+<footer>
+	<a href="#">Contact Us</a>
+	<p><a href="#">Bar Hours</a></p>
+
+</footer>
 
 </div>
 
