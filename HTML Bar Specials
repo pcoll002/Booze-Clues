@@ -472,15 +472,7 @@ section {
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
+__________________________________________________________________________________________________________________________
 
 <!DOCTYPE html>
 <html>
@@ -716,6 +708,26 @@ span.psw {
 ________________________________________________________________________________________________________________________________________________
 *Green Room Page*
 
+<style>
+
+#container{
+		width:150px;
+		height:150px;
+		position:relative;
+	}
+
+#container ul{
+		width:150px;
+		height:150px;
+		list-style:none outside none;
+		position:relative;
+		
+}
+
+</style>
+
+
+
 <body>
 
 <div class="container">
@@ -743,7 +755,20 @@ ________________________________________________________________________________
 	Green Room has something for everyone. Whether you want to play darts, relax and socialize on the sofas or dance the night away Green Room is the place for you. 
     Known for their Fishbowls on Wednesdays and you cannot leave without trying a nerd bucket. Equipped with two full Bars and one of the biggest dancefloors in Plattsburgh,
     the versatility of Green Room is unmatched. Guaranteed that you will have a great time, no matter what you are looking for.
-                                    
+     
+     
+ <div id="container">
+	<ul>
+		<li><img src="GreenRoom.jpg" width="350" height="300" /></li>
+		<li><img src="picture2.jpg" width="604" height="453" /></li>
+		<li><img src="picture3.jpg" width="604" height="453" /></li>
+	</ul>
+<span class="button prevButton"></span>
+<span class="button nextButton"></span>
+	</div>
+	
+
+     
 </div>
 
 <div class="float_col2"><h1>Bar Specials </h1>
