@@ -772,3 +772,67 @@ ________________________________________________________________________________
 
 </body>
 </html>
+
+________________________________________________________________________________________________________________________________________________
+*Monopole Page*
+
+<body>
+
+<div class="container">
+
+<header>
+	<div><img src="spotlight.png" align="left"/ alt="SpotLights" height="200" width="200">
+	<h1>Booze Clues</h1></div>
+	
+</header>
+  
+<nav>
+  <ul>
+  <li><a href="Home.html">Home</a></li>
+    <li><a href="GreenRoom.html">Green Room</a></li>
+    <li><a href="Peabodys.html">Peabodys</a></li>
+    <li><a href="Hobies.html">Hobies</a></li>
+	<li><a href="Monopole.html">Monopole</a></li>
+	<li><a href="518.html">Five1Eight</a></li>
+  </ul>
+</nav>
+
+<article>
+	<div class="float_col1">
+  <h1>Monopole</h1>
+    Monopole is Plattsburgh's oldest bar. Established in 1898, it sets the standard for
+    all other bars in Plattsburgh. A common watering hole for both college students
+    and local residents. Most notibly know for Wing Wednesday and Football Sunday.
+    With drink specials everyday and live music on the second floor, Monpole is one of 
+	Plattsburgh's premier downtown destinations.
+                                    
+</div>
+
+<div class="float_col2"><h1>Bar Specials </h1>
+    <p>Sunday - $3 Sierra Nevada pints ALL DAY.</p>
+    <p>Monday - $3.50 Lagunitas Pints, $2.50 pitchers & $2.50 bar drinks.</p>
+    <p>Tuesday – Fireball Night - $2.50 Fireball shots, $2.50 Pitchers, $2.50 Flavored Vodka Drinks, $2.50 Yuengling Pints.</p>
+    <p>Wednesday - Wing Night 60-cent wings. $2.50 pitchers, $3.00 Sierra Nevada Pints $2.50 Sailor Jerry Drinks, $2.50 Fireball shots.</p>
+	<p>Thursdays - Flight Night beer flights 3 for $5 and 4 for $7. $2.50 Captain Morgan Drinks, $2.50 Jack Drinks & Bud Bottles.</p>
+	<p>Fridays - Trivia Night $2.50 Yuengling Pints.</p>
+	<p>Saturdays - - $2.50 pitchers, $3.00 Sierra Nevada Pints.</p>
+	
+	
+	</div>
+	
+ 
+ </article>
+ 
+<footer>
+	<a href="#">Contact Us</a>
+	<p><a href="#">Bar Hours</a></p>
+	
+
+
+
+</footer>
+
+</div>
+
+</body>
+</html>
