@@ -712,3 +712,63 @@ span.psw {
 
 </body>
 </html>
+
+________________________________________________________________________________________________________________________________________________
+*Green Room Page*
+
+<body>
+
+<div class="container">
+
+<header>
+	<div><img src="spotlight.png" align="left"/ alt="SpotLights" height="200" width="200">
+	<h1>Booze Clues</h1></div>
+	
+</header>
+  
+<nav>
+  <ul>
+  <li><a href="Home.html">Home</a></li>
+    <li><a href="GreenRoom.html">Green Room</a></li>
+    <li><a href="Peabodys.html">Peabodys</a></li>
+    <li><a href="Hobies.html">Hobies</a></li>
+	<li><a href="Monopole.html">Monopole</a></li>
+	<li><a href="518.html">Five1Eight</a></li>
+  </ul>
+</nav>
+
+<article>
+	<div class="float_col1">
+  <h1>Green Room</h1>
+	Green Room has something for everyone. Whether you want to play darts, relax and socialize on the sofas or dance the night away Green Room is the place for you. 
+    Known for their Fishbowls on Wednesdays and you cannot leave without trying a nerd bucket. Equipped with two full Bars and one of the biggest dancefloors in Plattsburgh,
+    the versatility of Green Room is unmatched. Guaranteed that you will have a great time, no matter what you are looking for.
+                                    
+</div>
+
+<div class="float_col2"><h1>Bar Specials </h1>
+    <p>Monday - $2.50 Domestic Bottles, $2.50 Rum & Coke, $3 Fireball, $8 Margarita bucket</p>
+    <p>Wednesday - $2 16oz Busch Lights, $2.50 Rum & Coke, $2.50 Kamikaze Shot, $8 Fishbowls.</p>
+	<p>Thursdays - $1 off all craft drafts, $2 Busch Light drafts, $2 vodka drinks, $3 fireball shots, $8 fish bowls. </p>
+	<p>Fridays - $2 Busch Lights, $2.50 Rum & Coke, $2.50 Lemon Drop shots</p>
+	<p>Saturdays - $2 Vodka Well Drinks, $2 Busch Lights, $3.50 Fireball Shots and drink specials all night.</p>
+	
+	
+	</div>
+	
+ 
+ </article>
+ 
+<footer>
+	<a href="#">Contact Us</a>
+	<p><a href="#">Bar Hours</a></p>
+	
+
+
+
+</footer>
+
+</div>
+
+</body>
+</html>
