@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+</style>
 div.container {
-    width: 100%;
-    border: 1px solid gray;
+    width: 75%;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 0;
+	padding-bottom: 0;
+    
 }
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
+header {
+    padding-bottom: 0px;
+	padding-top: 0px;
+    color: black;
+	border-bottom: solid grey;
+	border-bottom-width: 1px;
     clear: left;
-    text-align: center;
+	font-size: 18px;
+	text-align: center;
+	font-family: "Courier New", Courier;
 }
 
-img header {
-	width: 25px;
-	height: 25;
+footer {
+    padding: 1em;
+    color: black;
+    border-top: solid grey;
+	border-top-width: 1px;
+    clear: left;
+	text-align: left;
+	
+    
 }
+
+footer a:hover {
+    background-color: white;
+    color: black;
+	max-width: 150px;
+}
+
+
 
 nav {
     float: left;
-    max-width: 200px;
+    max-width: 5px;
     margin: 0;
     padding: 0;
+	padding-top: 30px;
+	padding-left: 75px;
 	
 }
 
@@ -56,27 +80,46 @@ li a {
 li a:hover {
     background-color: #FAD7A0;
     color: white;
-    max-width:150px;
+	max-width: 150px;
 }
 
 article {
-    margin-left: 200px;
-    border-left: 1px solid gray;
-    padding: 5em;
+    margin-left: 250px;
+	margin-top: 0px;
+    border-left: 1px solid grey;
+	padding-bottom: 150px;
     overflow: hidden;
+	text-align: justify;
+	font-size:15px;
+	padding-left: 10px;
+	
+	
 }
 
+article h1 {
+	font-size: 20px;
+}
 
 .float_col1 {
 	float:left;
-	width: 250px;
+	width: 450px;
 }
 
 .float_col2 {
 	float:right;
 	width: 400px;
-	margin-left:200px;
+	margin-right: 175px;
+	
+
 }
+
+section {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+
+
 </style>
 </head>
 <body>
@@ -84,7 +127,7 @@ article {
 <div class="container">
 
 <header>
-	<div><img src="spotlight.png" align="left"/ alt="Spotlights" height="200" width="200">
+	
 	<h1>Booze Clues: <i> The Place To Find Your Booze</i></h1></div>
 </header>
   
