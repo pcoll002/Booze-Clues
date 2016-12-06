@@ -30,7 +30,8 @@ footer {
 	border-top-width: 1px;
     clear: left;
 	text-align: left;
-	
+	background-repeat: repeat-x;
+	background-image:url("foam.jpeg")
     
 }
 
@@ -163,7 +164,8 @@ permits. Hobie's offers take out or dine in waiter service for customers. The ba
 <footer>
 	<a href="#">Contact Us</a>
 	<p><a href="#">Bar Hours</a></p>
-
+	<img src="foam.jpg" />
+	
 </footer>
 
 </div>
