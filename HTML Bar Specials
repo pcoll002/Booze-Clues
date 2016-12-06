@@ -27,20 +27,12 @@ footer {
     padding: 1em;
     color: black;
     border-top: solid grey;
-	border-top-width: 1px;
-    clear: left;
+    	border-top-width: 1px
 	text-align: left;
 	background-repeat: repeat-x;
-	background-image:url("foam.jpeg")
+	background-image:url("foam.jpg")
     
 }
-
-footer a:hover {
-    background-color: white;
-    color: black;
-	max-width: 150px;
-}
-
 
 
 nav {
@@ -164,7 +156,7 @@ permits. Hobie's offers take out or dine in waiter service for customers. The ba
 <footer>
 	<a href="#">Contact Us</a>
 	<p><a href="#">Bar Hours</a></p>
-	<img src="foam.jpg" />
+	
 	
 </footer>
 
