@@ -903,12 +903,127 @@ section {
 ________________________________________________________________________________________________________________________________________________
 *Monopole Page*
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+div.container {
+    width: 75%;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 0;
+	padding-bottom: 0;
+    
+}
+
+header {
+    padding-bottom: 0px;
+	padding-top: 0px;
+    color: black;
+	border-bottom: solid grey;
+	border-bottom-width: 1px;
+    clear: left;
+	font-size: 18px;
+	text-align: center;
+	font-family: "Courier New", Courier;
+}
+
+footer {
+    padding: 1em;
+    color: black;
+    border-top: solid grey;
+	border-top-width: 1px;
+	text-align: left;
+	background-repeat: repeat-x;
+	background-image:url("foam.jpg")
+    
+}
+
+
+nav {
+    float: left;
+    max-width: 5px;
+    margin: 0;
+    padding: 0;
+	padding-top: 30px;
+	padding-left: 75px;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+	
+}
+   
+nav ul a {
+    text-decoration: none;
+	color: black;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+	font-size: 25px;
+	
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #FAD7A0;
+    color: white;
+	max-width: 150px;
+}
+
+article {
+    margin-left: 250px;
+	margin-top: 0px;
+    border-left: 1px solid grey;
+	padding-bottom: 150px;
+    overflow: hidden;
+	text-align: justify;
+	font-size:15px;
+	padding-left: 10px;
+	
+	
+}
+
+article h1 {
+	font-size: 20px;
+}
+
+.float_col1 {
+	float:left;
+	width: 450px;
+}
+
+.float_col2 {
+	float:right;
+	width: 400px;
+	margin-right: 175px;
+	
+
+}
+
+section {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+</style>
+</head>
 <body>
 
 <div class="container">
 
 <header>
-	<div><img src="spotlight.png" align="left"/ alt="SpotLights" height="200" width="200">
 	<h1>Booze Clues</h1></div>
 	
 </header>
