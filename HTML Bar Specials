@@ -192,15 +192,10 @@ footer {
     padding: 1em;
     color: white;
     background-color: black;
-    clear: left;
+	border-top-width: 1px;
 	text-align: left;
-    
-}
-
-footer a:hover {
-    background-color: white;
-    color: black;
-	max-width: 150px;
+    	background-repeat: repeat-x;
+	background-image:url("foam.jpg")
 }
 
 img header {
@@ -360,16 +355,12 @@ footer {
     padding: 1em;
     color: white;
     background-color: black;
-    clear: left;
+    	border-top-width: 1px;
 	text-align: left;
-    
+    	background-repeat: repeat-x;
+	background-image:url("foam.jpg")
 }
 
-footer a:hover {
-    background-color: white;
-    color: black;
-	max-width: 150px;
-}
 
 img header {
 	width: 25px;
@@ -536,15 +527,10 @@ footer {
     padding: 1em;
     color: white;
     background-color: black;
-    clear: left;
+    	border-top-width: 1px;
 	text-align: left;
-    
-}
-
-footer a:hover {
-    background-color: white;
-    color: black;
-	max-width: 150px;
+    	background-repeat: repeat-x;
+	background-image:url("foam.jpg")
 }
 
 img header {
@@ -732,9 +718,6 @@ span.psw {
 	<a href="#">Contact Us</a>
 	<p><a href="#">Bar Hours</a></p>
 	
-
-
-
 </footer>
 
 </div>
@@ -889,9 +872,6 @@ ________________________________________________________________________________
 	<a href="#">Contact Us</a>
 	<p><a href="#">Bar Hours</a></p>
 	
-
-
-
 </footer>
 
 </div>
