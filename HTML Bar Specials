@@ -131,6 +131,7 @@ section {
     <li><a href="#">Hobies</a></li>
 	<li><a href="Monopole.html">Monopole</a></li>
 	<li><a href="518.html">Five1Eight</a></li>
+	<li><a href="AboutUs.html">About Us</a></li>
   </ul>
 </nav>
 
@@ -353,6 +354,7 @@ section {
     <li><a href="Hobies.html">Hobies</a></li>
 	<li><a href="Monopole.html">Monopole</a></li>
 	<li><a href="518.html">Five1Eight</a></li>
+	<li><a href="AboutUs.html">About Us</a></li>
   </ul>
 </nav>
 
@@ -576,6 +578,7 @@ section {
     <li><a href="Hobies.html">Hobies</a></li>
 	<li><a href="Monopole.html">Monopole</a></li>
 	<li><a href="518.html">Five1Eight</a></li>
+	<li><a href="AboutUs.html">About Us</a></li>
   </ul>
 </nav>
 
@@ -1073,6 +1076,7 @@ body {font-family: Verdana,sans-serif;margin:0}
     <li><a href="Hobies.html">Hobies</a></li>
 	<li><a href="Monopole.html">Monopole</a></li>
 	<li><a href="518.html">Five1Eight</a></li>
+	<li><a href="AboutUs.html">About Us</a></li>
   </ul>
 </nav>
 
@@ -1277,6 +1281,7 @@ section {
     <li><a href="Hobies.html">Hobies</a></li>
 	<li><a href="Monopole.html">Monopole</a></li>
 	<li><a href="518.html">Five1Eight</a></li>
+	<li><a href="AboutUs.html">About Us</a></li>
   </ul>
 </nav>
 
