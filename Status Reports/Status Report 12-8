@@ -5,5 +5,8 @@ the mobile application. After successfully linking the Booze Clues github reposi
 into a problem with the configure file. I am still working on fixing this problem because I found the configure file in the PhoneGap
 github repository and I am not too sure what needs to be changed. To my knowledge once I figure out the problem with the configure file
 the application should be up and running on the mobile device. 
+*****************************************************************************************************************************************
+I realized what the problem was with the configure file right after I posted this status update. Still tampering with the two application
+to get the Booze Clues app up and running on the mobile application.
 
 -Patrick Collins
