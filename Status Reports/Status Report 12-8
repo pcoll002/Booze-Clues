@@ -9,4 +9,11 @@ the application should be up and running on the mobile device.
 I realized what the problem was with the configure file right after I posted this status update. Still tampering with the two application
 to get the Booze Clues app up and running on the mobile application.
 
+*****************************************************************************************************************************************
+As I got closer to getting the application running on the mobile platflorm I came across yet another problem that will halt the progress I
+was making with the program completely. Unfortunately through all of the research that I had done about the Phone Gap application I didn't 
+know that I needed a Apple Developer Certificate to complete the process of linking the application from the desktp to my mobile device. I
+had even looked into using Windows instead of IOS, btu both require you to spend money on a developer account. It is because of this that
+we will not be putting the Booze Cles website into an application based form. 
+
 -Patrick Collins
