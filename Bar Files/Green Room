@@ -421,9 +421,10 @@ function showSlides(n) {
  
 <footer>
 
-	
 	<a href="#">Contact Us</a>
 	<p><a href="#">Bar Hours</a></p>
+	<a href="https://www.facebook.com/greenroomplattsburgh/">Green Room's Facebook Page</a></li>
+	
 	
 </footer>
 
