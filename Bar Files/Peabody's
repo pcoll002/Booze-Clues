@@ -206,13 +206,26 @@ function showSlides(n) {
 	<p>Fridays - N/A
 	<p>Saturdays - $5 Double Mixed Drink Specials, 50cent OFF Select Craft Beers, $3 Shot Specials</p>
 	
-	
-	
-	
-	
 	</div>
 	
  
+ 
+ <div class="float_col2"><h1>Tell Us What You Think!</h1>
+	<form method='post'>
+  		Name: <input type='text' name='name' id='name' /><br />
+
+  		Date: <input type='text' name='date' id='date' /><br />
+
+  		Comment:<br />
+  		<textarea name='comment' id='comment'></textarea><br />
+
+  		<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  		<input type='submit' value='Submit' />  
+	</form>
+</div> 
+
+
  </article>
  
 <footer>
