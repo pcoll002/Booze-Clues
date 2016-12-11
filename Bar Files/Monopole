@@ -316,6 +316,23 @@ function showSlides(n) {
  	
  	</div>
  	
+	
+	
+<div class="float_col2"><h1>Tell Us What You Think!</h1>
+	<form method='post'>
+  		Name: <input type='text' name='name' id='name' /><br />
+
+  		Date: <input type='text' name='date' id='date' /><br />
+
+  		Comment:<br />
+  		<textarea name='comment' id='comment'></textarea><br />
+
+  		<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  		<input type='submit' value='Submit' />  
+	</form>
+</div> 
+
   
   </article>
   
