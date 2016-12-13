@@ -4,7 +4,7 @@
 <style>
 
 div.container {
-    width: 75%;
+    width: 80%;
 	padding-left: 35px;
 	padding-right: 35px;
 	padding-top: 0;
@@ -22,6 +22,7 @@ header {
 	font-size: 18px;
 	text-align: center;
 	font-family: "Courier New", Courier;
+	width: 110%;
 }
 
 footer {
@@ -74,7 +75,7 @@ li a {
 li a:hover {
     background-color: #FAD7A0;
     color: white;
-	max-width: 150px;
+	max-width: 160px;
 }
 
 article {
