@@ -6,7 +6,7 @@
 <style>
 
 div.container {
-    width: 75%;
+    width: 80%;
 	padding-left: 35px;
 	padding-right: 35px;
 	padding-top: 0;
@@ -15,16 +15,17 @@ div.container {
 }
 
 header {
-    padding-bottom: 0px;
-	padding-top: 0px;
-    color: black;
-	border-bottom: solid grey;
-	border-bottom-width: 1px;
-    clear: left;
-	font-size: 18px;
-	text-align: center;
-	font-family: "Courier New", Courier;
-}
+	    padding-bottom: 0px;
+		padding-top: 0px;
+	    color: black;
+		border-bottom: solid grey;
+		border-bottom-width: 1px;
+	    clear: left;
+		font-size: 18px;
+		text-align: center;
+		font-family: "Courier New", Courier;
+		width: 110%;
+	}
 
 footer {
     padding: 1em;
@@ -79,7 +80,7 @@ li a {
 li a:hover {
     background-color: #FAD7A0;
     color: white;
-	max-width: 150px;
+	max-width: 160px;
 }
 
 article {
@@ -221,7 +222,7 @@ body {font-family: Verdana,sans-serif;margin:0}
  
  <nav>
   <ul>
-  <li><a href="Home.html">Home</a></li>
+  
      <li><a href="GreenRoom.html">Green Room</a></li>
      <li><a href="Peabodys.html">Peabodys</a></li>
      <li><a href="Hobies.html">Hobies</a></li>
@@ -337,8 +338,7 @@ function showSlides(n) {
   </article>
   
  <footer>
- 	<a href="#">Contact Us</a>
- 	<p><a href="#">Bar Hours</a></p>
+ 
 	<a href="https://www.facebook.com/monopole.bar">Monopole's Facebook Page</a></li>
  
 </footer>
