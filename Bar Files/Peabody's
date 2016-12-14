@@ -7,18 +7,19 @@
 
 
 div.container {
-    width: 100%;
+    width: 80%;
     border: 1px solid gray;
 }
 
 header {
-    padding-bottom: 10px;
+    	padding-bottom: 10px;
 	padding-top: 10px;
-    color: white;
-    background-color: #590000;
-    clear: left;
+    	color: white;
+    	background-color: #590000;
+    	clear: left;
 	font-size: 15px;
 	text-align: center;
+	width: 110%;
 }
 
 footer {
@@ -114,7 +115,6 @@ section {
 <div class="container">
 
 <header>
-	<div><img src="spotlight.png" align="left"/ alt="SpotLights" height="200" width="200">
 	<h1>Booze Clues</h1></div>
 	
 </header>
@@ -207,21 +207,30 @@ function showSlides(n) {
 	<p>Fridays - N/A
 	<p>Saturdays - $5 Double Mixed Drink Specials, 50cent OFF Select Craft Beers, $3 Shot Specials</p>
 	
-	
-	
-	
-	
 	</div>
 	
  
+ 
+ <div class="float_col2"><h1>Tell Us What You Think!</h1>
+	<form method='post'>
+  		Name: <input type='text' name='name' id='name' /><br />
+
+  		Date: <input type='text' name='date' id='date' /><br />
+
+  		Comment:<br />
+  		<textarea name='comment' id='comment'></textarea><br />
+
+  		<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  		<input type='submit' value='Submit' />  
+	</form>
+</div> 
+
+
  </article>
  
 <footer>
-	<a href="#">Contact Us</a>
-	<p><a href="#">Bar Hours</a></p>
-	
-
-
+	<a href="https://www.facebook.com/peabodys.bar/?hc_ref=SEARCH">Peabody's Facebook Page</a></li>
 
 </footer>
 

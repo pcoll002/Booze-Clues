@@ -5,18 +5,21 @@
 <head>
 <style>
 div.container {
-    width: 100%;
+    width: 80%;
     border: 1px solid gray;
 }
 
 header {
-    padding-bottom: 10px;
-	padding-top: 10px;
-    color: white;
-    background-color: #590000;
+    padding-bottom: 0px;
+	padding-top: 0px;
+    color: black;
+	border-bottom: solid grey;
+	border-bottom-width: 1px;
     clear: left;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: center;
+	font-family: "Courier New", Courier;
+	width: 110%;
 }
 
 footer {
@@ -71,7 +74,7 @@ li a {
 li a:hover {
     background-color: #FAD7A0;
     color: white;
-	max-width: 150px;
+	max-width: 160px;
 }
 
 article {
@@ -202,13 +205,28 @@ function showSlides(n) {
 	<p>Saturdays - $3 Rum and Cokes</p>
 	</div>
 	
+
+<div class="float_col2"><h1>Tell Us What You Think!</h1>
+	<form method='post'>
+  		Name: <input type='text' name='name' id='name' /><br />
+
+  		Date: <input type='text' name='date' id='date' /><br />
+
+  		Comment:<br />
+  		<textarea name='comment' id='comment'></textarea><br />
+
+  		<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  		<input type='submit' value='Submit' />  
+	</form>
+</div> 
  
  </article>
  
 <footer>
 	<a href="#">Contact Us</a>
 	<p><a href="#">Bar Hours</a></p>
-	
+	<a href="https://www.facebook.com/Five1Eight/">Five1Eight's Facebook Page</a></li>	
 
 </footer>
 
