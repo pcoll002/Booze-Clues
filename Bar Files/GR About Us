@@ -102,9 +102,8 @@ article h1 {
 .float_col2 {
 	float:right;
 	width: 400px;
-	margin-right: 175px;
+	margin-right: 300px;
 	
-
 }
 
 section {
@@ -319,12 +318,22 @@ img header {
 	<p>Saturday: 7:00pm - 2:00am</p>
 	<p>Sunday: 2:00pm - 10:00pm</p>
 	
-  <div><img src="GreenRoomPic.jpg" align="right"/ alt="Location" height="225" width="225">
-	
+
+<div class="float_col2">
+
+  <img src="GreenRoomPic.jpg" align="right"/ alt="Location" height="225" width="400">
+  
+  <p>Address: 9 Bridge St # 1, Plattsburgh, NY 12901</p>
+  <p>Phone Number: (518) 563-3209</p>
+  <a href="https://www.facebook.com/Five1Eight/">Five1Eight's Facebook Page</a></li>
+
+</div>
+
+  	
  </article>
  
 <footer>
-	<p><a href="#">Click Here to Visit The Facebook Page</a></p>
+	
 	
 </footer>
 
