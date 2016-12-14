@@ -102,7 +102,7 @@ article h1 {
 .float_col2 {
 	float:right;
 	width: 400px;
-	margin-right: 175px;
+	margin-right: 300px;
 	
 
 }
@@ -322,6 +322,16 @@ img header {
 	</div>
 	
  </article>
+ 
+ <div class="float_col2">
+
+  <img src="Hobie's.jpg" align="right"/ alt="Location" height="225" width="400">
+
+  <p>Address: 68 Margaret St, Plattsburgh, NY 12901</p>
+  <p>Phone Number: (518) 562-1000</p>
+  <a href="https://www.facebook.com/hobiessportsden/?fref=ts">Hobie's Facebook Page</a></li>
+
+</div>
  
 <footer>
 	
