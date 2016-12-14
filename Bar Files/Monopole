@@ -457,7 +457,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-                                     
+            
+	    <center><a href="MonopoleAboutUs.html">Check Out More Bar information!<center></a>
  </div>
  
  <div class="float_col2"><h1>Bar Specials </h1>
