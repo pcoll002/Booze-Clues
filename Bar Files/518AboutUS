@@ -102,7 +102,7 @@ article h1 {
 .float_col2 {
 	float:right;
 	width: 400px;
-	margin-right: 175px;
+	margin-right: 300px;
 	
 
 }
@@ -323,9 +323,17 @@ img header {
 	
  </article>
  
+ <div class="float_col2">
+
+  <img src="five1eight.jpg" align="right"/ alt="Location" height="225" width="400">
+
+  <p>Address: 14 Margaret St, Plattsburgh, NY 12901
+  <p>Phone Number: (518) 566-2666</p>
+  <a href="https://www.facebook.com/Five1Eight/">Five1Eight's Facebook Page</a></li>
+
+</div>
+ 
 <footer>
-	
-	<a href="https://www.facebook.com/Five1Eight/">Five1Eight's Facebook Page</a></li>
 	
 </footer>
 
