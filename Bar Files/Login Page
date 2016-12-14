@@ -183,7 +183,7 @@ span.psw {
 <div class="container">
 
 <header>
-	
+	<div><img src="spotlight.png" align="left"/ alt="spotlight" height="225" width="225">
 	<h1>Booze Clues</h1></div>
 	
 </header>
