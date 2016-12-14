@@ -102,7 +102,7 @@ article h1 {
 .float_col2 {
 	float:right;
 	width: 400px;
-	margin-right: 175px;
+	margin-right: 300px;
 	
 
 }
@@ -323,9 +323,18 @@ img header {
 	
  </article>
  
+ <div class="float_col2">
+
+  <img src="Peabodys.jpg" align="right"/ alt="Location" height="225" width="400">
+
+  <p>Address: 7 Clinton St, Plattsburgh, NY 12901</p>
+  <p>Phone Number: (518) 561-0158</p>
+  <a href="https://www.facebook.com/pg/peabodys.bar/about/?ref=page_internal">Peabodys Facebook Page</a></li>
+  
+</div>
+ 
 <footer>
-	
-	<a href="https://www.facebook.com/pg/peabodys.bar/about/?ref=page_internal">Peabodys Facebook Page</a></li>
+
 	
 </footer>
 
