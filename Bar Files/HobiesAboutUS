@@ -95,12 +95,13 @@ article h1 {
 }
 
 .float_col1 {
-	float:left;
-	width: 450px;
+	float: left;
+	width: 250px;
 }
 
 .float_col2 {
-	float:right;
+	padding: 20px;
+	float: right;
 	width: 400px;
 	margin-right: 300px;
 	
