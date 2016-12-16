@@ -203,57 +203,12 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 
 
+
 </style>
 </head>
 <body>
 
-<div class="container">
 
-<header>
-	
-	<h1>Booze Clues</h1></div>
-	
-</header>
-  
-<nav>
-  <ul>
-	
-    <li><a href=“GreenRoom.html">Green Room</a></li>
-    <li><a href="Peabodys.html">Peabodys</a></li>
-    <li><a href="Hobies.html">Hobies</a></li>
-	<li><a href="Monopole.html">Monopole</a></li>
-	<li><a href="518.html">Five1Eight</a></li>
-	<li><a href="AboutUs.html">About Us</a></li>
-  </ul>
-</nav>
-
-<article>
-	
-  <h1><center>Monopole Hours: </center></h1>
-  
-	
-	<p>Monday: 3:00pm - 2:00am</p>
-	<p>Tuesday: 3:00pm - 2:00am</p>
-	<p>Wednesday: 3:00pm - 2:00am</p>
-	<p>Thursday: 3:00pm - 2:00am</p>
-	<p>Friday: 3:00pm - 2:00am</p>
-	<p>Saturday: 3:00pm - 2:00am</p>
-	<p>Sunday: 1:00pm - 2:00am</p>
-	
-  <div><img src="GreenRoomPic.jpg" align="right"/ alt="Location" height="225" width="225">
-	
- </article>
- 
-<footer>
-	<p><a href="#">Click Here to Visit The Facebook Page</a></p>
-	
-=======
-</style>
-</head>
-
-
-
-<body>
 <div class="container">
 
 <header>
