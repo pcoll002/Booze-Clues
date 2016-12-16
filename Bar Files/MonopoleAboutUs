@@ -320,9 +320,8 @@ img header {
 	<p>Friday: 3:00pm - 2:00am</p>
 	<p>Saturday: 3:00pm - 2:00am</p>
 	<p>Sunday: 1:00pm - 2:00am</p>
-	</div>
-	
- </article>
+</div>
+
  
  <div class="float_col2">
 
@@ -334,7 +333,8 @@ img header {
   <a href="https://www.facebook.com/monopole.bar/">Monopole's Facebook Page</a></li>
   
 </div>
- 
+</article>
+
 <footer>
 
 	
